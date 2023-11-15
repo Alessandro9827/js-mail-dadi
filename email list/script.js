@@ -8,8 +8,6 @@ const mailList = [ "ale.27@gmail.com","mario.rossi34@gmail.com", "marco.marchesi
                 ]
 const mailName = (prompt("inserisci la tua mail"));
 
-//const fruits = ["Banana", "Orange", "Apple", "Mango"];
-//fruits.includes("Banana", 3);
 
 if (mailList.includes(mailName)) {
     console.log("La tua mail è valida");
